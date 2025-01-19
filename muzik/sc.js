@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyBLTGLZSkyBTeDYlJw52fldUZE90sQ_lJU'; // API anahtarını buraya ekleyin.
+const apiKey = ''; // API anahtarını buraya ekleyin.
 
 // YouTube API ile şarkı arama fonksiyonu
 function searchMusic(query) {
