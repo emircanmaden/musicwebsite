@@ -1,0 +1,218 @@
+/* Temel stil ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Konteyner ayarları */
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #141414;  /* Koyu ton */
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    width: 150px; /* Logo genişliği */
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 20px 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #17a34a;
+  }
+  
+  nav ul li a i {
+    margin-right: 10px; /* İkon ile yazı arasında boşluk */
+  }
+  
+  /* İçerik alanı */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #181818;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+  }
+  
+  /* adminMuzik.php için özel stil */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table th, .admin-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.admin-table th {
+    background-color: #222;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.admin-table tr:hover {
+    background-color: #333;
+}
+
+.admin-table a {
+    color: #17a34a;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.admin-table a:hover {
+    text-decoration: underline;
+}
+
+.add-button {
+    background-color: #17a34a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.add-button:hover {
+    background-color: #128f36;
+}
+
+/* ekle.php için özel stil */
+.form-container {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+#açıklama{
+  width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+.form-container input[type="text"],
+.form-container input[type="file"],
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #17a34a;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #128f36;
+}
+
+.form-container input[type="text"],
+.form-container input[type="file"] {
+    background-color: #222;
+    color: white;
+}
+
+.form-container input[type="file"]:hover {
+    background-color: #333;
+}
+
+/* düzenle.php için özel stil */
+.edit-form-container {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.edit-form-container input[type="text"],
+.edit-form-container input[type="file"],
+.edit-form-container button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.edit-form-container button {
+    background-color: #17a34a;
+    cursor: pointer;
+}
+
+.edit-form-container button:hover {
+    background-color: #128f36;
+}
+
+.edit-form-container input[type="text"],
+.edit-form-container input[type="file"] {
+    background-color: #222;
+    color: white;
+}
+
+.edit-form-container input[type="file"]:hover {
+    background-color: #333;
+}
