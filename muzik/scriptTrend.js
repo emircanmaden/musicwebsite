@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyBLTGLZSkyBTeDYlJw52fldUZE90sQ_lJU'; // Replace with your actual YouTube API key
+const API_KEY = ''; // Replace with your actual YouTube API key
 const randomSongsContainer = document.getElementById('random-songs-list');
 const searchResultsContainer = document.getElementById('search-results-list');
 const searchResultsSection = document.getElementById('search-results-section');
